@@ -1,0 +1,3 @@
+This is the sentence append with the help of DUP() system call
+This is the sentence append with the help of DUP2() system call
+This is the sentence append with the help of FCNTL() system call
