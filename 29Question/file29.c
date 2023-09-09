@@ -1,3 +1,13 @@
+/*
+============================================================================
+Name : file29.c
+Author : Nabarun Mukherjee
+Description : Write a program to get scheduling policy and modify the scheduling policy (SCHED_FIFO,
+SCHED_RR).
+Date: 9th Sep, 2023.
+============================================================================
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<unistd.h>

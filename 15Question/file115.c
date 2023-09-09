@@ -1,3 +1,12 @@
+/*
+============================================================================
+Name : file115.c
+Author : Nabarun Mukherjee
+Description : Write a program to display the environmental variable of the user (use environ).
+Date: 9th Sep, 2023.
+============================================================================
+*/
+
 #include<stdio.h> 
 #include<stdlib.h>
 #include<unistd.h>

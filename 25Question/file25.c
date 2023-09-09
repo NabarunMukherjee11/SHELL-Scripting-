@@ -1,3 +1,13 @@
+/*
+============================================================================
+Name : file25.c
+Author : Nabarun Mukherjee
+Description : Write a program to create three child processes. The parent should wait for a particular child (use
+waitpid system call).
+Date: 9th Sep, 2023.
+============================================================================
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<sys/types.h>

@@ -1,3 +1,16 @@
+/*
+============================================================================
+Name : file118.c
+Author : Nabarun Mukherjee
+Description : Write a program to perform Record locking.
+ a. Implement write lock
+ b. Implement read lock
+Create three records in a file. Whenever you access a particular record, first lock it then modify/access
+to avoid race condition.
+Date: 9th Sep, 2023.
+============================================================================
+*/
+
 #include<sys/file.h>
 #include<stdio.h>
 #include<unistd.h>
@@ -20,9 +33,9 @@ int main(int argc, char *argv[]) {
 		return 1;
 	}
 	int no;
-	printf("Enter the Train number (1,2,3) you want to modify or see: ");
+	printf("Enter number (1,2,3) you want to edit: ");
 	scanf("%d", &no);
-	printf("1. If you want to modify the train id\n2. If you want to book ticket.\n3.If you want to print the details only\n");
+	printf("1. to modify the train id\n2. to book ticket.\n3.to print the details \n");
 	int ch;
 	scanf("%d", &ch);
 	if(ch > 3 || ch < 1 || no < 1 || no > 3) {

@@ -1,3 +1,12 @@
+/*
+============================================================================
+Name : file120.c
+Author : Nabarun Mukherjee
+Description : Find out the priority of your running program. Modify the priority with nice command.
+Date: 9th Sep, 2023.
+============================================================================
+*/
+
 #include<stdlib.h>
 #include<stdio.h>
 #include<unistd.h>

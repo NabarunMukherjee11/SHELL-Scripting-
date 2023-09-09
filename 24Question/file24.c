@@ -1,3 +1,12 @@
+/*
+============================================================================
+Name : file24.c
+Author : Nabarun Mukherjee
+Description : Write a program to create an orphan process.
+Date: 9th Sep, 2023.
+============================================================================
+*/
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<unistd.h>
